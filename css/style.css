@@ -3,5 +3,46 @@
 	color: white;
 	display: flex;
 	justify-content: center;
+	/* align-items: center; */
+	height: 100%;
+}
+
+.title {
+font-family: "Montserrat", sans-serif;
+font-weight: bold;
+font-size: 4rem;
+}
+.titleLink{
+	text-decoration: none;
+	color: white;
+}
+.subheading {
+	 font-family: "Montserrat", sans-serif;
+}
+.nameSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	align-items: center;
+	width: 50%;
+}
+.cardSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+.card {
+	font-family: "Montserrat", sans-serif;
+	background: white;
+	color: black;
+	border-radius: 0.5rem;
+	box-shadow: 10px 10px 10px rgba(0, 208, 255, 0.713);
+	padding: 3rem;
+	margin: 2rem;
+	width: 200px;
+}
+.cardTitle{
+	font-weight: bold;
 }

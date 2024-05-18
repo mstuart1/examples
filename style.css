@@ -2,8 +2,9 @@
 	background: black;
 	color: white;
 	display: flex;
-	justify-content: center;
-	/* align-items: center; */
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
 	height: 100%;
 }
 
@@ -24,14 +25,15 @@ font-size: 4rem;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 50%;
+	/* width: 50%; */
 }
 .cardSection {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	/* width: 50%; */
 }
 .card {
 	font-family: "Montserrat", sans-serif;
